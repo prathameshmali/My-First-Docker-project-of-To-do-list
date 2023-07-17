@@ -1,0 +1,32 @@
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+July 17, 2023 - 23:12:17
+Django version 4.2.3, using settings 'todoApp.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+
+[17/Jul/2023 23:12:21] "GET /todos/ HTTP/1.1" 200 3509
+[17/Jul/2023 23:12:21] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Jul/2023 23:12:23] "POST /todos/23/update HTTP/1.1" 302 0
+[17/Jul/2023 23:12:23] "GET /todos/ HTTP/1.1" 200 3546
+[17/Jul/2023 23:12:24] "POST /todos/22/update HTTP/1.1" 302 0
+[17/Jul/2023 23:12:24] "GET /todos/ HTTP/1.1" 200 3583
+[17/Jul/2023 23:12:33] "GET /todos/ HTTP/1.1" 200 3583
+[17/Jul/2023 23:12:36] "POST /todos/add/ HTTP/1.1" 302 0
+[17/Jul/2023 23:12:36] "GET /todos/ HTTP/1.1" 200 4158
+[17/Jul/2023 23:12:38] "POST /todos/24/update HTTP/1.1" 302 0
+[17/Jul/2023 23:12:38] "GET /todos/ HTTP/1.1" 200 4195
+[17/Jul/2023 23:15:13] "GET /todos/ HTTP/1.1" 200 4195
+[17/Jul/2023 23:15:13] "GET /static/css/style.css HTTP/1.1" 304 0
+[17/Jul/2023 23:15:15] "GET /todos/ HTTP/1.1" 200 4195
+[17/Jul/2023 23:15:15] "GET /todos/ HTTP/1.1" 200 4195
+[17/Jul/2023 23:15:15] "GET /todos/ HTTP/1.1" 200 4195
+[17/Jul/2023 23:15:16] "GET /todos/ HTTP/1.1" 200 4195
